@@ -1,0 +1,41 @@
+:root {
+  /*  pink - VL -91022*/
+  --color1: #F7E3D4;
+  /*  red - VL -91022*/
+  --color2: #FC7307;
+  /*  green - VL -91022*/
+  --color3: #236AB9;
+  /*  light green - VL -91022*/
+  --color4: #1461B8;
+  /*  dark green - VL -91022*/
+  --color5: #091D34;
+}
+
+body {
+  background-color: var(--color1);
+  font-family: verdana sans-serif;
+  color: var(--color5);
+  /* color: var(--color2); */
+}
+
+h1 {
+  color: var(--color5);
+  font-style: italic;
+}
+
+.navbar {
+  background-color: var(--color1);
+  color: var(--color2);
+}
+
+.logo {
+  color: var(--color4);
+  background-color: var(--color1);
+}
+
+.images {
+  background-color(--color4);
+}
+.paragraph{
+  color: var(--color5);
+}
