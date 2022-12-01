@@ -1,5 +1,6 @@
     *{
         box-sizing: border-box;
+        color: white;
     }
     
     
@@ -10,7 +11,16 @@
       background: #202731;
       overflow-x: hidden;
     }
+nav {
+color:white;
+background-image: url("Blacklines.jpg");
 
+}
+
+  .a{
+    color: white;
+
+  }
   .column {
     flex: 50%;
     padding: 5px;
