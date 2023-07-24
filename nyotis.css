@@ -32,6 +32,14 @@
       align-items: center;
       padding: 30px 10%;
     }
+
+    /*trying to try the clamp function to make my website responsive to desktop and smartphone displays specifically the images I have. */
+
+#sectionImages{
+width: clamp(400rem 40vw 600rem);
+height: clamp(400rem 40vw 600rem);
+
+}
 .logo {
   cursor: pointer;
 }
@@ -70,6 +78,7 @@ nav {
 color:white;
 }
 
+
   .a{
     color: white;
   }
@@ -83,6 +92,12 @@ color:white;
     margin: 0;
     padding: 0;
   }
+  .responsive{
+    width: 100% ;
+    max-width: 400px;
+    height: auto;
+  }
+
   .row {
     display: flex;
   }
